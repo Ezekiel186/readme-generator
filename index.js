@@ -12,11 +12,6 @@ const questions = [{
     name: "description",
     message: "Write your project's description:"
 }, 
-{   
-    type: "input",
-    name: "table",
-    message: "What are your README's table of contents?"
-},
 {
     type: "input",
     name: "installation",
@@ -73,12 +68,11 @@ function makeReadMe(data) {
 ${data.description}
 
 ## Table of Contents
-${data.table}
         
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
     
 ## Installation
 ${data.installation}
@@ -96,8 +90,8 @@ ${data.contributing}
 ${data.tests}
 
 ## Credits
-${data.github}
-${data.email}
+- [Github](https://github.com/${data.github})
+- [Email](mailto:${data.email})
 `
 };
 
