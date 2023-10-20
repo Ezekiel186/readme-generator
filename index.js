@@ -27,7 +27,7 @@ const questions = [{
     type: "list",
     name: "license",
     message: "What is your project's license?",
-    choices: ["None","Apache License 2.0","GNU General Public License v3.0","MIT License",'BSD 2-Clause "Simplified" License']
+    choices: ["None","Apache License 2.0","MIT License","Boost Software License 1.0","Mozilla Public License 2.0"]
 }, 
 {
     type: "input",
@@ -43,18 +43,6 @@ const questions = [{
     type: "input",
     name: "github",
     message: "What is your github username?",
-//     validate: function (input) { 
-//         var validUrl = "https://github.com/" + input
-    
-//     fetch(validUrl)
-//     .then((response) => {
-//       if (response.ok) {
-//         console.log(`${input} is valid.`);
-//       } else {
-//         console.error(`${input} is not a valid account`);
-//       }
-//     })
-// }
 },
 {
     type: "input",
