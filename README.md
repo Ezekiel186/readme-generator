@@ -31,3 +31,5 @@ I have made multiple READMEs and tested the licenses to make sure everything wor
 ## Credits
 - [Github](https://github.com/Ezekiel186)
 - [Email](mailto:ezekieljamolin186@gmail.com)
+
+Specail thanks to [Github](https://github.com/fenriragni) for helping me understand license boilers plates and switch cases.
